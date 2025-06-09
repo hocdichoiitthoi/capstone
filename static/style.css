@@ -1,0 +1,97 @@
+/* Custom styles for Wan Video Generation UI */
+.custom-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.custom-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.custom-title {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.custom-form-group {
+    margin-bottom: 1.5rem;
+}
+
+.custom-label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: #34495e;
+}
+
+.custom-input {
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    padding: 0.75rem;
+    width: 100%;
+    transition: border-color 0.2s;
+}
+
+.custom-input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+.custom-button {
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 100%;
+}
+
+.custom-button:hover {
+    background: #2980b9;
+}
+
+.custom-loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.custom-spinner {
+    color: white;
+    font-size: 2rem;
+}
+
+.custom-preview {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.custom-video {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+.error-message {
+    color: #e74c3c;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+} 
